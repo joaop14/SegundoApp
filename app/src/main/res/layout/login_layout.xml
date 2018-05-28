@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorFundo"
+    android:paddingTop="120dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context="br.senac.sp.l13.segundoapp.LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/brazil"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorLinha"
+        android:padding="15dp"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:layout_width="445dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:hint="Password"
+        android:background="@color/colorLinha"
+        android:padding="15dp"
+        android:inputType="textPassword"
+        android:textColor="@color/colorFonte" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginBottom="50dp"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_marginLeft="80dp"
+        android:text="Not a member? Sing up now." />
+</LinearLayout>

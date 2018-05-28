@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorFundao"
+    android:paddingTop="90dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context="br.senac.sp.l13.segundoapp.LoginActivity">
+
+    <EditText
+        android:layout_width="408dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorLinhad"
+        android:hint="Fullname"
+        android:inputType="text"
+        android:padding="13dp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="13dp"
+        android:background="@color/colorLinhad"
+        android:inputType="textEmailAddress"
+        android:hint="E-mail"
+        />
+
+    <EditText
+        android:layout_width="461dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="13dp"
+        android:background="@color/colorLinhad"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorButton"
+        android:textSize="18dp"
+        android:text="Register" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorLinha"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:text="Already register! Login me!" />
+</LinearLayout>
